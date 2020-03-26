@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>INTELLI (INDEX)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/intelli.css">
+</head>
+
+<body class="bg-main">
+    <header>
+        <div class="container">
+            
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row border border-primary">
+            <div class="col-xs-12 col-sm-6 col-md-4 border border-warning"> s</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 border border-danger"> s</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 border border-info"> s</div>
+        </div>
+    </div>
+
+    <section id="signup" class="signup-section border border-danger">
+        <div class="container">
+            
+            <div class="img_logo mx-auto">
+                <img src="img/logos/signup.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="signup-frame">
+                <div class="signup-inside">
+                    <p class="signup-title "> Inicio de sesión </p>
+                    <p class="signup-instructions">
+                        Por favor introduzca el número de contrato que le proporcionamos para que
+                        pueda ingresar al sistema
+                    </p>
+                    <form action="file:///home/ESTRASOL/juan.camberos/Documentos/PROYECTOS/Intelli/intelli_design/welcome.html" >
+                        <div class="form-group">
+                            <label class="signup-instructions" for="numero_contrato"> Número de contrato </label>
+                            <input type="text" name="numero_contrato" class="form-control numero_contrato" id="numero_contrato" placeholder="Introduzca su número de contrato aquí"/>
+                        </div>
+                        <button type="submit" class="btn btn_aceptar border-left-orange ">Aceptar</button>
+                    </form>
+                    <div class="row">
+                        <div>
+                            <div class="arrow-left">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            2020, Intelli, todos los derechos reservados
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

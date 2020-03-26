@@ -1,0 +1,165 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.signup-section {
+
+}
+
+.img_logo {
+    padding-bottom: 2em;
+}
+
+.signup-frame {
+    height: 411px;
+    width: 641px;
+    background-color: #7F8185;
+    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.12);
+}
+
+.signup-inside {
+    padding: 3em;
+}
+
+.signup-title {
+    height: 25px;
+    width: 153px;
+    color: #FFFFFF;
+    font-family: "Roboto Condensed";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.signup-instructions {
+    height: 54px;
+    width: 513px;
+    color: #BFC3CC;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.numero_contrato {
+    background-color: #6B6D71 !important;
+    color: #FFFFFF !important;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    box-sizing: border-box;
+    height: 54px;
+    width: 534px;
+    border: 1px solid #BFC3CC;
+    padding-left: 20px;
+}
+
+.numero_departamento {
+    box-sizing: border-box;
+    border: 1px solid #BFC3CC;
+    background-color: #6B6D71 !important;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.btn_aceptar {
+    height: 54px;
+    width: 192px;
+    background-color: #646567;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+
+.border-left-orange {
+    border-left-width: .5em !important;
+    border-left-color: #E95A0C;
+}
+
+header {
+    /* padding: 3rem 0; */
+}
+
+footer {
+    padding: 2em 0;
+    position: absolute;
+    bottom: 0;
+    color: #BFC3CC;
+    background-color: #6B6D71 !important;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    width: 100%;
+}
+
+.bg-gray {
+    background-color: #6B6D71 !important;
+}
+
+.bg-black {
+    background-color: #161616 !important;
+}
+
+.bg-main {
+    background-color: black;
+    background-image:
+        linear-gradient(#646567,
+            #646567 60%,
+            #6B6D71 40%,
+            #6B6D71);
+}
+
+
+
+/*PARA BORRAR DESPUÉS*/
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+    border-bottom: 5px solid black;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid #f00;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+
+    border-left: 60px solid green;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-right: 10px solid blue;
+}

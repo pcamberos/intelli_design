@@ -1,0 +1,174 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #6B6D71;
+    background-image:
+        linear-gradient(#646567,
+            #646567 60%,
+            #6B6D71 40%,
+            #6B6D71);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 1em 0;
+    }
+    #signup_frame_row{
+        margin-right:0.1em;
+        margin-left:0.1em;
+    }
+    .signup_frame{
+        padding: 1em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 1em 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 4.5em 0;
+    }
+
+    .signup_frame{
+        padding: 3em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 4.5em 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header {
+        padding: 4.5em 0;
+    }
+}
+
+/* header {
+    padding: 4.5em 0;
+} */
+
+
+footer {
+    padding: 1.2em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #BFC3CC;
+    /* background-color: #6B6D71 !important; */
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+
+}
+
+.img_logo {
+    align-items: center;
+}
+
+
+#signup_frame_row {
+    /* margin: auto; */
+    /* width: 90%;  */
+    /* min-height: 26em; */
+}
+
+.signup_frame {
+    margin-top: 1em;
+    min-height: 26em;
+    padding-top: 2em;
+    background-color: #7F8185;
+    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+.signup-title {
+    color: #FFFFFF;
+    font-family: "Roboto Condensed";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.signup-guion {
+    font-size: 16px;
+    color: #E95A0C;
+    font-weight: bold;
+}
+
+.signup-instructions {
+    color: #BFC3CC;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-bottom: 1em;
+}
+
+.signup-instructions2 {
+    color: #BFC3CC;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 27px;
+}
+
+.numero_contrato {
+    background-color: #7F8185 !important;
+    color: #FFFFFF !important;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+    border: 1px solid #BFC3CC;
+    min-height: 54px;
+    margin-bottom: 2.8em;
+}
+
+.numero_contrato::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1;
+    /* Firefox */
+}
+
+.numero_contrato:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+}
+
+.numero_contrato::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #FFFFFF;
+}
+
+.btn_aceptar {
+    height: 54px;
+    width: 192px;
+    background-color: #646567;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    border-left-width: .5em !important;
+    border-left-color: #E95A0C;
+}
+
+.info_lost {
+    padding-top: 1em;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
