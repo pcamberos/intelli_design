@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> WELCOME </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/grayscale.css"> -->
+    <link rel="stylesheet" href="css/intelli.css">
+</head>
+
+<body>
+    <header></header>
+
+    <section id="signup" class="bg-signup signup-section ">
+        <div class="container d-flex flex-column justify-content-center h-100">
+            <div class="img_logo mx-auto">
+                <img src="img/logos/signup.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="signup-frame mx-auto ">
+                <div class="signup-inside">
+                    <p class="signup-title "> Bienvenido </p>
+                    <p class="signup-instructions">
+                        Por favor seleccione su número de departamento
+                    </p>
+                    <form action="file:///home/ESTRASOL/juan.camberos/Documentos/PROYECTOS/Intelli/intelli_design/index.html" >
+                        <div class="form-group">
+                            <label class="signup-instructions" for="numero_departamento"> Número de departamento </label>
+                            <select name="numero_departamento" class="form-control numero_departamento " 
+                               id="numero_departamento" placeholder="Seleccione su número de departamento aquí">
+                                <option value=""></option>
+                                <option value="0">Shadow 1</option>
+                                <option value="1">Shadow 1</option>
+                                <option value="2">Shadow 1</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn_aceptar border-left-orange ">Aceptar</button>
+                    </form>
+                    <div class="row">
+                        <div>
+                            <div class="arrow-left">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray small text-center text-white-50">
+        <div class="container">
+            2020, Intelli, todos los derechos reservados
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
